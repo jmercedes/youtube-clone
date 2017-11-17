@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import SearchBar from './components/search_bar';
+
+class App extends Component {
+  render () {
+    return (
+      <div>
+        <SearchBar />
+      </div>
+    )
+  }
+}
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
