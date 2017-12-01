@@ -12,8 +12,13 @@ body {
 }
 
 .search-bar input {
-  width: 65%;
+  width: 50%;
   height: 40px;
+  padding: 5px;
+}
+
+input::placeholder {
+  color: rgba(36, 35, 35, 0.5);
 }
 
 .video-detail {
