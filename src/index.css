@@ -5,3 +5,22 @@ body {
   padding: 0;
   font-family: 'Questrial', sans-serif;
 }
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 65%;
+  height: 40px;
+}
+
+.video-detail {
+  float: left;
+}
+
+.detail {
+  margin-top: 20px;
+}
+
